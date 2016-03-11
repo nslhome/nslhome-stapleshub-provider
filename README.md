@@ -1,4 +1,4 @@
-OpenZWave Provider
+Staples Connect Hub Provider
 =========
 
 NslHome provider for the Staples Connect Hub
