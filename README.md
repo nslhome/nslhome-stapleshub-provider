@@ -5,7 +5,7 @@ NslHome provider for the Staples Connect Hub
 
 ## Installation
 
-`git clone https://github.com/nslhome/stapleshub-provider.git`
+`git clone https://github.com/nslhome/nslhome-stapleshub-provider.git`
 
 MongoDB and RabbitMQ configuration should be provided via the environment variables `NSLHOME_MONGO_URL` and `NSLHOME_RABBIT_URL`.
 
@@ -33,11 +33,11 @@ Provider Config
 
 Run as a standalone application
 
-`node stapleshub-provider <CONFIG_NAME>`
+`node nslhome-stapleshub-provider <CONFIG_NAME>`
 
 Include as a module
 
-`require('stapleshub-provider')(CONFIG_NAME)`
+`require('nslhome-stapleshub-provider')(CONFIG_NAME)`
 
 ## Release History
 
