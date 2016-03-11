@@ -1,0 +1,18 @@
+{
+  "name": "stapleshub-provider",
+  "version": "1.0.0",
+  "description": "nslhome provider for the Staples Connect Hub",
+  "main": "stapleshub-provider.js",
+  "scripts": {
+    "start": "node stapleshub-provider.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Largent <nicklargent@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.12.0",
+    "express": "3.*",
+    "node-staplesconnecthub": "nslhome/node-staplesconnecthub",
+    "nslhome-core": "nslhome/nslhome-core"
+  }
+}
