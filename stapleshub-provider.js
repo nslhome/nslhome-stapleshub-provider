@@ -1,6 +1,6 @@
 var core = require('nslhome-core')
 var moment = require("moment");
-var StaplesConnectHub = require('StaplesConnectHub');
+var StaplesConnectHub = require('staplesconnecthub');
 
 var PROVIDER_TYPE = "stapleshub-provider";
 
